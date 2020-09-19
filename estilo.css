@@ -1,0 +1,166 @@
+html, body{
+    margin: 0;
+    background-color: #f1f1f1;
+}
+h2{
+    width: 100%;
+}
+header{
+    background-color:#696969	;
+    color: #ff9200;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#logo{
+    width:150px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 5px;
+}
+
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+
+li:hover{
+    background-color: #ff9200 ;
+    color: black;
+}
+#acao:hover{
+background-color: #ff9200;
+color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#t5{
+    color: black;
+}
+
+img{
+    padding-left: 20px;
+}
+#imgfundo{
+    background: url("img/pexels-pixabay-267586.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#título{
+    color:#00008B	;
+    padding-top: 17%;
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+
+}
+#subtítulo{
+    color: black		;
+    text-align: center;
+}
+#acao{
+    color: #00008B;
+    border: 1px solid;
+    padding: 10px 20px 10px 20px;
+}
+.icone{
+    width: 51px;
+}
+#projeto{
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+#objetivos{
+    width: 100%;
+}
+#Metas{
+    width: 100%;
+}
+#metast{
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+
+#melhoras{
+    padding-left: 0 5%;
+}
+
+.coluna{
+    float:left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+}
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.quatro{
+    width: 15%;
+    padding: 0 5%;
+}
+.justificado{
+    text-align: justify;
+
+}
+.centralizado{
+    text-align: center;
+}
+
+footer{
+    background-color: #F0E68C;
+    float: left;
+    width: 100%;
+}
+#me{
+    width: 30%;
+    padding-bottom: 15px;
+    }
+.mecolor{
+    background-color:#DDA0DD	 ;
+ }
+ #about{
+     background-color: #DDA0DD;
+}
+
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position:relative;
+        text-align: center;
+    }
+    #logo{
+        margin-left: 0px;
+        transform:translateX(-50%)
+    }
+}
+   
